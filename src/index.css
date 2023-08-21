@@ -1,3 +1,9 @@
+:root {
+  --orchid:#ccccff;
+  --sand:#f7e9d4;
+  --smoke:#404040;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +11,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--orchid) !important;
+  color: var(--sand);
+  text-shadow: 2px 2px 4px var(--smoke); 
 }
 
 code {
