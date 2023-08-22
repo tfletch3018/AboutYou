@@ -8,9 +8,9 @@ function YourWork() {
 
     return (
         <div>
-            <Container>
+            <Container fluid style= {{ marginTop: 50 }}>
                 <Row>
-                    <h1 className="">Projects/ Wor</h1>
+                    <h1 className="text-center">Projects/ Your Work</h1>
                 </Row>
             </Container>
         </div>

@@ -8,9 +8,9 @@ function Misc() {
 
     return (
         <div>
-            <Container>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
-                    <h1 className="">Miscellaneous</h1>
+                    <h1 className="text-center">Miscellaneous</h1>
                 </Row>
             </Container>
         </div>

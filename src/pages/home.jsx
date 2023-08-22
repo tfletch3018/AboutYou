@@ -8,9 +8,9 @@ function Home() {
 
     return (
         <div>
-            <Container>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
-                    <h1 className="">Homepage</h1>
+                    <h1 className="text-center">Homepage</h1>
                 </Row>
             </Container>
         </div>
