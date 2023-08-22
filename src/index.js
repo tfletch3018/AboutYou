@@ -18,16 +18,12 @@ root.render(
   <HashRouter>
 
     <Routes>
-
       <Route path="/" element={<App />}>
         <Route path="home" element={<Home />}/>
         <Route path="yourWork" element={<YourWork />} />
           <Route path="misc" element={<Misc />} />
-
-
       </Route>
-
     </Routes>
-
+    
   </HashRouter>
 );

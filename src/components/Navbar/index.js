@@ -24,13 +24,11 @@ function OffCanvas() {
                         >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                <NavLink to="/"
+                                    <NavLink to="/"
                                         href="/"
                                     >
                                         Logo
                                     </NavLink>{" "}
-                                    
-                                    {/* Logo */}
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
 
@@ -54,7 +52,7 @@ function OffCanvas() {
                                         Miscellaneous
                                     </NavLink>
 
-                                    
+
                                     {/* <NavDropdown
                                         title="Dropdown"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -72,7 +70,7 @@ function OffCanvas() {
                                             Something else here
                                         </NavDropdown.Item>
                                     </NavDropdown> */}
-                                                                
+
                                 </Nav>
 
                                 {/* <Form className="d-flex">

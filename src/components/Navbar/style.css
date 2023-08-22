@@ -2,8 +2,37 @@
     --orchid:#ccccff;
     --sand:#f7e9d4;
     --smoke:#404040;
+    --litesea:#e6fff7;
     --sea: #80ffd4;
   }
+
+  .navbar {
+    margin-bottom: 0;
+    background-image: linear-gradient(to bottom, #ccccff, #404040);
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  
+  .navbar-light .navbar-brand, .navbar-light .navbar-brand:focus {
+    color: var(--sand);
+    text-shadow: 1px 2px 3px var(--smoke);
+  }
+  
+  .navbar-light .navbar-brand:hover {
+    color: var(--litesea);
+    text-shadow: 1px 2px 3px var(--smoke);
+  }
+
+button.navbar-toggler.collapsed {
+    background-image: linear-gradient(to top, #f7e9d4, #404040);
+    --bs-navbar-toggler-focus-width: 0;
+}
+button.navbar-toggler.collapsed:hover {
+    background-image: linear-gradient(to top, #f7e9d4, #e6fff7);
+    --bs-navbar-toggler-focus-width: 0;
+}
 
 #canvasNav {
     color: var(--sand);
