@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { NavLink } from "react-router-dom";
+import logo from "../../images/logo.png"
 import "./style.css";
 
 function OffCanvas() {
@@ -15,7 +16,9 @@ function OffCanvas() {
             {['md'].map((expand) => (
                 <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
                     <Container fluid id="canvasNav">
-                        <Navbar.Brand href="#">Logo
+                        <Navbar.Brand href="#">
+                            <img src={logo} id="logo" alt="" />
+                            {/* Logo */}
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas id={`offcanvasNavbar-expand-${expand}`}
@@ -51,6 +54,7 @@ function OffCanvas() {
                                     >
                                         Miscellaneous
                                     </NavLink>
+
 
 
                                     {/* <NavDropdown

@@ -1,6 +1,8 @@
 :root {
     --orchid:#ccccff;
     --sand:#f7e9d4;
+    --rose: #ff99cc;
+    --straw:#ffff1a;
     --smoke:#404040;
     --litesea:#e6fff7;
     --sea: #80ffd4;
@@ -38,13 +40,29 @@ button.navbar-toggler.collapsed:hover {
     color: var(--sand);
     background-image: linear gradient(to bottom, var(--orchid), var(--smoke));
 }
+#logo { 
+  border: 0px solid transparent;
+  border-style:inset;
+  border-radius: 25%;
+  box-shadow: 2px 2px 5px var(--litesea);
+    /* margin-bottom: 25px; */
+}
+#logo:hover {
+  /* border-color: var(--litesea); */
+  box-shadow: 2px 2px 5px var(--rose);
+  opacity: 0.8;
+}
+
 
 a {
-    color: var(--orchid);
+  padding: 15px;
+    color: var(--sand);
     text-shadow: 1px 2px 3px var(--smoke);
+    text-decoration: none;
 }
 
 a:hover {
-    color: var(--sea);
+    color: var(--litesea);
     text-shadow: 1px 2px 3px var(--smoke);
+        text-decoration: none;
 }

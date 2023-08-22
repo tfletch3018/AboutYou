@@ -5,7 +5,7 @@ import "../index.css";
 function Home() {
 
     return (
-        <div>
+        <div className="backGround1">
             <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <h1 className="text-center">Homepage</h1>

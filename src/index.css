@@ -1,6 +1,11 @@
 :root {
+  --litesea:#e6fff7;
+  --sea: #80ffd4;
+  --sky:#99ebff;
   --orchid:#ccccff;
+  --rose: #ff99cc;
   --sand:#f7e9d4;
+  --fog:#b3b3b3;
   --smoke:#404040;
 }
 
@@ -11,12 +16,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--orchid) !important;
+  background-image: linear-gradient(to right, #ccccff, #b3b3b3);
   color: var(--sand) !important;
   text-shadow: 4px 2px 4px var(--smoke) !important; 
 }
 
+/* html {
+  background-image: linear-gradient(to right, #ccccff, #b3b3b3);
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.backGround1 {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(to top #99ebff, #b3b3b3) !important;
+  background-repeat: no-repeat;
+}
+.bg-2 {
+  background-image: linear-gradient(to top #80ffd4, #b3b3b3);
+}
+.bg-3 {
+  background-image: linear-gradient(to top #ff99cc, #b3b3b3);
 }
