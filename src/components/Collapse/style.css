@@ -1,0 +1,29 @@
+:root {
+    --litesea: #e6fff7;
+    --sea: #80ffd4;
+    --sky: #99ebff;
+    --orchid: #ccccff;
+    --rose: #ff99cc;
+    --sand: #f7e9d4;
+    --fog: #b3b3b3;
+    --smoke: #404040;
+}
+#collapse {
+    border-radius: 10px;
+    /* vertical-align: bottom; */
+}
+
+#collapseBtn {
+    color: var(--sand);
+    text-shadow: 4px 2px 4px var(--smoke);
+
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid transparent;
+    box-shadow: 5px 3px 7px 4px var(--smoke)
+}
+
+#collapseBtn:hover {
+    color: var(--litesea);
+    box-shadow: 5px 3px 7px 4px var(--litesea)
+}

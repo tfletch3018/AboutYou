@@ -11,12 +11,14 @@ function Home() {
         <div className="backGround1">
     
             <Container fluid style={{ marginTop: 50 }}>
-                
-                <Carousel1 />
-                
-                <Row>
+            <Row>
                     <h1 className="text-center">Homepage</h1>
+                <p className="text-center">I am Person.... Welcome to my web application</p>
                 </Row>
+                <Row>
+                <Carousel1 />
+                </Row>
+               
             </Container>
         </div>
     )
