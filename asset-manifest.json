@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/aboutyou/static/css/main.c2ede493.css",
-    "main.js": "/aboutyou/static/js/main.bf9f58c6.js",
-    "static/media/pic2.jpg": "/aboutyou/static/media/pic2.433c02b8b23a4b597234.jpg",
-    "static/media/pic3.jpg": "/aboutyou/static/media/pic3.0727b3aef49a192a9261.jpg",
-    "static/media/pic10.jpg": "/aboutyou/static/media/pic10.a85004b2ce2b67a388ad.jpg",
-    "static/media/pic4.jpg": "/aboutyou/static/media/pic4.b2189cdced1ccf7b7e93.jpg",
-    "static/media/pic6.jpg": "/aboutyou/static/media/pic6.e83e89f14a43b16e6cd7.jpg",
-    "static/media/pic5.jpg": "/aboutyou/static/media/pic5.15435ea59a1311cd4b49.jpg",
-    "static/media/pic9.jpg": "/aboutyou/static/media/pic9.6cbe239e5c1bb325523c.jpg",
-    "static/media/pic7.jpg": "/aboutyou/static/media/pic7.422dd493b46a8575a47c.jpg",
-    "static/media/pic1.jpg": "/aboutyou/static/media/pic1.74f3f8e45aa91cf7915c.jpg",
-    "static/media/pic8.jpg": "/aboutyou/static/media/pic8.dd415b4f78d942ce9c61.jpg",
-    "static/media/test2.jpg": "/aboutyou/static/media/test2.bc8e062e6937e714e351.jpg",
-    "static/media/test1.jpg": "/aboutyou/static/media/test1.11e43c9264dab6ee80a3.jpg",
-    "static/media/test.jpg": "/aboutyou/static/media/test.52b3903e79e1e4a47e0c.jpg",
-    "index.html": "/aboutyou/index.html",
-    "main.c2ede493.css.map": "/aboutyou/static/css/main.c2ede493.css.map",
-    "main.bf9f58c6.js.map": "/aboutyou/static/js/main.bf9f58c6.js.map"
+    "main.css": "/AboutYou/static/css/main.35e5d2e9.css",
+    "main.js": "/AboutYou/static/js/main.9f3e0d7e.js",
+    "static/media/pic2.jpg": "/AboutYou/static/media/pic2.433c02b8b23a4b597234.jpg",
+    "static/media/pic3.jpg": "/AboutYou/static/media/pic3.0727b3aef49a192a9261.jpg",
+    "static/media/pic10.jpg": "/AboutYou/static/media/pic10.a85004b2ce2b67a388ad.jpg",
+    "static/media/pic4.jpg": "/AboutYou/static/media/pic4.b2189cdced1ccf7b7e93.jpg",
+    "static/media/pic6.jpg": "/AboutYou/static/media/pic6.e83e89f14a43b16e6cd7.jpg",
+    "static/media/pic5.jpg": "/AboutYou/static/media/pic5.15435ea59a1311cd4b49.jpg",
+    "static/media/pic9.jpg": "/AboutYou/static/media/pic9.6cbe239e5c1bb325523c.jpg",
+    "static/media/pic7.jpg": "/AboutYou/static/media/pic7.422dd493b46a8575a47c.jpg",
+    "static/media/pic1.jpg": "/AboutYou/static/media/pic1.74f3f8e45aa91cf7915c.jpg",
+    "static/media/pic8.jpg": "/AboutYou/static/media/pic8.dd415b4f78d942ce9c61.jpg",
+    "static/media/test2.jpg": "/AboutYou/static/media/test2.bc8e062e6937e714e351.jpg",
+    "static/media/test1.jpg": "/AboutYou/static/media/test1.11e43c9264dab6ee80a3.jpg",
+    "static/media/test.jpg": "/AboutYou/static/media/test.52b3903e79e1e4a47e0c.jpg",
+    "index.html": "/AboutYou/index.html",
+    "main.35e5d2e9.css.map": "/AboutYou/static/css/main.35e5d2e9.css.map",
+    "main.9f3e0d7e.js.map": "/AboutYou/static/js/main.9f3e0d7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2ede493.css",
-    "static/js/main.bf9f58c6.js"
+    "static/css/main.35e5d2e9.css",
+    "static/js/main.9f3e0d7e.js"
   ]
 }
