@@ -1,12 +1,19 @@
 import Container from "../components/Container";
 import Row from "../components/Row";
+import Carousel1 from "../components/Carousel";
 import "../index.css";
 
 function Home() {
 
     return (
+
+       
         <div className="backGround1">
+    
             <Container fluid style={{ marginTop: 50 }}>
+                
+                <Carousel1 />
+                
                 <Row>
                     <h1 className="text-center">Homepage</h1>
                 </Row>

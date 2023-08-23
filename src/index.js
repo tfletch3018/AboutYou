@@ -17,6 +17,8 @@ root.render(
 
   <HashRouter>
 
+
+
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="home" element={<Home />}/>

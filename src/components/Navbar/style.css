@@ -66,3 +66,8 @@ a:hover {
     text-shadow: 1px 2px 3px var(--smoke);
         text-decoration: none;
 }
+a:focus {
+  color: var(--orchid);
+  text-shadow: 1px 2px 3px var(--smoke);
+      text-decoration: none;
+}
