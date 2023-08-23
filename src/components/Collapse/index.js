@@ -1,19 +1,16 @@
 import React from 'react';
 import { Collapsible } from 'collapsible-react-component';
 import 'collapsible-react-component/dist/index.css'
-import test from "./images/test.jpg";
-import test1 from "./images/test1.jpg";
-import test2 from "./images/test2.jpg";
 import "./style.css"
 
 const Collapse = () => {
-        const [open, setOpen] = React.useState(true)
+        const [open, setOpen] = React.useState(false)
         return (
             <>
-            <button id="collapseBtn" type='button' onClick={() => {
+            <button className="collapseBtn" id="collapsed" type='button' onClick={() => {
                 setOpen(!open)
             }}
-            ><img id="collapse" src={test} alt="" width="200" height="300px" />
+            >
                 {open ? 'Close' : 'Open'}
             </button>
             <Collapsible open={open}>
@@ -26,13 +23,13 @@ const Collapse = () => {
         )
     }
     const Collapse1 = () => {
-        const [open, setOpen] = React.useState(true)
+        const [open, setOpen] = React.useState(false)
         return (
             <>
-            <button id="collapseBtn" type='button' onClick={() => {
+            <button className="collapseBtn" id="collapsed1" type='button' onClick={() => {
                 setOpen(!open)
             }}
-            ><img id="collapse" src={test1} alt="" width="200" height="300px" />
+            >
                 {open ? 'Close' : 'Open'}
             </button>
             <Collapsible open={open}>
@@ -45,13 +42,13 @@ const Collapse = () => {
         )
     }
     const Collapse2 = () => {
-        const [open, setOpen] = React.useState(true)
+        const [open, setOpen] = React.useState(false)
         return (
             <>
-            <button id="collapseBtn" type='button' onClick={() => {
+            <button className="collapseBtn" id="collapsed2" type='button' onClick={() => {
                 setOpen(!open)
             }}
-            ><img id="collapse" src={test2} alt="" width="200" height="300px" />
+            >
                 {open ? 'Close' : 'Open'}
             </button>
             <Collapsible open={open}>

@@ -10,24 +10,24 @@ function YourWork() {
         <div>
             <Container fluid style= {{ marginTop: 50 }}>
                 <Row>
-                    <h1 className="text-center">Projects/ Your Work</h1>
+                    <h1 className="text-center">Your Work</h1>
                 </Row>
                 </Container>
 
                 <Container fluid style= {{ marginTop: 50 }}>
 
-                <Row>
+                <Row className="">
                     <Col size="sm-4">
-                        <p>Text here</p>
+                        <p className="">Project Name 1</p>
                         <Collapse />
                     </Col>
                     <Col size="sm-4">
-                    <p>Text here</p>
+                    <p className="">Project Name 2</p>
 
                     <Collapse1 />
                     </Col>
                     <Col size="sm-4">
-                    <p>Text here</p>
+                    <p className="">Project Name 3</p>
 
                     <Collapse2 />
                     </Col>
