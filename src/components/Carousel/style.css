@@ -28,22 +28,24 @@ h3 {
     text-shadow: 4px 4px 7px var(--milkchocolate);
 }
 
- a:link {
+div.carousel-caption h3 {
+    font-size: 22px;
+}
+div.carousel-caption h3 a {
+    font-size: 20px;
     color: var(--orchid);
     text-shadow: 4px 4px 7px var(--amethystOrchid);  
 }
 
-a:hover {
+div.carousel-caption h3 a:hover {
     color: var(--marigold);
     text-shadow: 4px 4px 7px var(--orange);  
 }
-
-a:active {
+div.carousel-caption h3 a:active {
     color: var(--cerulean);
     text-shadow: 4px 4px 7px var(--navy);  
 }
-
-a:focus {
+div.carousel-caption h3 a:focus {
     color: var(--blush);
     text-shadow: 4px 4px 7px var(--raspberrySorbet);  
 }

@@ -45,14 +45,11 @@ button.navbar-toggler.collapsed:hover {
   border-style:inset;
   border-radius: 25%;
   box-shadow: 2px 2px 5px var(--litesea);
-    /* margin-bottom: 25px; */
 }
 #logo:hover {
-  /* border-color: var(--litesea); */
   box-shadow: 2px 2px 5px var(--rose);
   opacity: 0.8;
 }
-
 
 a {
   padding: 15px;
@@ -66,7 +63,7 @@ a:hover {
     text-shadow: 1px 2px 3px var(--smoke);
         text-decoration: none;
 }
-a:focus {
+a:focus, a:active {
   color: var(--orchid);
   text-shadow: 1px 2px 3px var(--smoke);
       text-decoration: none;
