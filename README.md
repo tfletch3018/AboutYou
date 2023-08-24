@@ -7,11 +7,17 @@ To install this repository on your local drive, clone the ssh key. Open your loc
 
 ### Usage
 If you would like to demo this program, please click on the link in the finished project section of this README.
+
+<img src="" >
+
 ### Development in Progress, view the current status...
-Coming soon...
+[Check out the deployed application on Github Pages!](https://tfletch3018.github.io/AboutYou/)
+
 ### Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ### Features
 * React-bootstrap
+* React-responsive-carousel
+* Collapsible-react-component
 * Smooth user interaction transitioning between pages, facilitated by React-Router-DOM 
 * Easily customized
