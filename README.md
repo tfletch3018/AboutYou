@@ -11,7 +11,8 @@ If you would like to demo this program, please click on the link in the finished
 <img src="src\images\demo.gif" >
 
 <img src="src\images\Screenshot.png" >
-<img src="src\images\Screenshot1.png"> <img src="src\images\Screenshot2.png"> <img src="src\images\Screenshot3.png">
+
+<img src="src\images\Screenshot1.png" > <img src="src\images\Screenshot2.png" > <img src="src\images\Screenshot3.png" >
 
 ### Development in Progress, view the current status...
 [Check out the deployed application on Github Pages!](https://tfletch3018.github.io/AboutYou/)
