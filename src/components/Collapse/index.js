@@ -18,6 +18,9 @@ const Collapse = () => {
         labore? Autem laboriosam minima corrupti rem repellat odio reiciendis
         nihil! Eum natus dolorem atque blanditiis ipsam aperiam. Voluptatem,
         exercitationem fugit.
+        <button className="modalBtn">
+            <a href="https://tfletch3018.github.io/The_Portfolio/">Something</a>
+            </button>
                 </Collapsible>
             </>
         )
@@ -37,6 +40,9 @@ const Collapse = () => {
         labore? Autem laboriosam minima corrupti rem repellat odio reiciendis
         nihil! Eum natus dolorem atque blanditiis ipsam aperiam. Voluptatem,
         exercitationem fugit.
+        <button className="modalBtn">
+            <a href="https://tfletch3018.github.io/The_Portfolio/">Something</a>
+            </button>
                 </Collapsible>
             </>
         )
@@ -56,6 +62,9 @@ const Collapse = () => {
         labore? Autem laboriosam minima corrupti rem repellat odio reiciendis
         nihil! Eum natus dolorem atque blanditiis ipsam aperiam. Voluptatem,
         exercitationem fugit.
+        <button className="modalBtn">
+            <a href="https://tfletch3018.github.io/The_Portfolio/">Something</a>
+            </button>
                 </Collapsible>
             </>
         )
