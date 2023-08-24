@@ -62,3 +62,12 @@ p {
 #projectBtn:hover {
   background-image: linear-gradient(to top,#ccccff, #404040);
 }
+
+#projectPic {
+  border-radius: 10px;
+  border: transparent;
+  box-shadow: 5px 3px 7px 4px var(--smoke)
+}
+#projectPic:hover {
+  box-shadow: 5px 3px 7px 4px var(--litesea)
+}
