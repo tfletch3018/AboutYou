@@ -8,28 +8,26 @@ function YourWork() {
 
     return (
         <div>
-            <Container fluid style= {{ marginTop: 50 }}>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <h1 className="text-center">Your Work</h1>
                 </Row>
-                </Container>
+            </Container>
 
-                <Container fluid style= {{ marginTop: 50 }}>
+            <Container fluid style={{ marginTop: 50 }}>
 
                 <Row className="">
                     <Col size="sm-4">
-                        <p className="">Project Name 1</p>
+                        <p className="">Project One</p>
                         <Collapse />
                     </Col>
                     <Col size="sm-4">
-                    <p className="">Project Name 2</p>
-
-                    <Collapse1 />
+                        <p className="">Project Two</p>
+                        <Collapse1 />
                     </Col>
                     <Col size="sm-4">
-                    <p className="">Project Name 3</p>
-
-                    <Collapse2 />
+                        <p className="">Project Three</p>
+                        <Collapse2 />
                     </Col>
                 </Row>
 

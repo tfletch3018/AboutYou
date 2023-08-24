@@ -29,10 +29,10 @@ h3 {
 }
 
 div.carousel-caption h3 {
-    font-size: 22px;
+    font-size: 10px;
 }
 div.carousel-caption h3 a {
-    font-size: 20px;
+    font-size: 14px;
     color: var(--orchid);
     text-shadow: 4px 4px 7px var(--amethystOrchid);  
 }
